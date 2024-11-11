@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Main{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Join{
+    width: 90vw;
+    min-height: 100vh;
+    background-color: hsla(0, 0%, 7%, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10%;
+}
+
+.Text{
+    color: white;
+}
+
+.Heading{
+    font-size: 45px;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.Paragraph{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+
+.Button{
+    height: auto;
+    width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 24px;
+    background-color:orange;
+    color: black;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin-top: 5%;
+}
+
+.Button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: orange;
+    border: 1.3px solid orange;
+}
+
+@media (max-width:450px){
+
+    .Heading{
+        font-size: 30px;
+    }
+
+    .Paragraph{
+        font-size: 14px;
+    }
+
+    .Button{
+        font-size: 20px;
+    }
+
+}

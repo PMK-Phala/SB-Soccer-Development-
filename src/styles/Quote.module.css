@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 100vw;
+    height: auto;
+    background-color:#c2c2c2f3 ;
+}
+
+.Quote{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 11%;
+    padding-top: 11%;
+}
+
+.H1{
+    font-size: 35px;
+    width: 90%;
+    text-align: center;
+    font-weight: 200;
+    color: black;
+}
+
+.P{
+    font-size: 20px;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+@media (max-width:450px){
+
+    .H1{
+        font-size: 25px;
+    }
+
+    .P{
+        font-size: 14px;
+    }
+
+}

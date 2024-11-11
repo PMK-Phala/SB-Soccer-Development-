@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.92);
+
+}
+
+.Picture{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img{
+    height: 70%;
+    width: 80%;
+}
+
+.About{
+    width: 50%;
+    min-height: auto;
+    display: flex;
+    position: relative;
+}
+
+.H1{
+    font-size: 35px;
+    font-weight: 200;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+.P{
+    width: 90%;
+    font-size: 20px; 
+    position:absolute;
+    top: 27%;
+}
+
+
+@media (max-width: 536px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About-One{
+        height: auto;
+        width: 100vw;
+        height: auto;
+    }
+
+    .HOne{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 35px;
+       font-weight: 200;
+    }
+
+    .Picture{
+        height: 70%;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .Img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .About{
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .H1{
+        display: none;
+    }
+    .P{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (min-width: 536px){
+    .About-One{
+        display: none;
+    }
+}
+
+@media (max-height: 458px){
+    .P{
+        font-size: 17px;
+    }
+}
+
+
