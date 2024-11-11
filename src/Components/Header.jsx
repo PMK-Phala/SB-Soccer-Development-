@@ -16,7 +16,7 @@ function Header(){
         <>
         <header className={HeaderCSS["Container"]}>
         <Link to='/' className={HeaderCSS["Logo"]}>
-            <img src="/public/Images/Logo.png" alt="" className={HeaderCSS["Logo-Img"]}/>
+            <img src="/Images/Logo.png" alt="" className={HeaderCSS["Logo-Img"]}/>
             <div className={HeaderCSS["Brand"]}>
                 <h1 className={`${HeaderCSS.Text} ${HeaderCSS.Sb}`}>S.B</h1>
                 <h1 className={`${HeaderCSS.Text} ${HeaderCSS.Soccer}`}>Soccer</h1>
