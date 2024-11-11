@@ -26,12 +26,11 @@
     align-items: center;
     justify-content: flex-start;
     padding-bottom: 0;
-
 }
 
 .Logo-Img{
     width: 50%;
-    height: 70%;
+    height: 30%;
     border-right: 0.5px solid black;
 }
 
@@ -159,6 +158,16 @@ a{
 
     .Academy{
         height: 100%;
+    }
+}
+
+@media(max-width:330px){
+    .Text{
+        font-size: 15px;
+    }
+
+    .LittleNav{
+        width: 13vw;
     }
 }
 
