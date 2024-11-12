@@ -30,7 +30,7 @@
 
 .Logo-Img{
     width: 50%;
-    height: 30%;
+    height: 70%;
     border-right: 0.5px solid black;
 }
 
@@ -172,7 +172,7 @@ a{
     }
 
     .LittleNav{
-        width: 13vw;
+        width: 30px;
     }
 }
 
